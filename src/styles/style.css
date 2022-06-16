@@ -1,0 +1,102 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url("../images/wallpaper.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container h1 {
+  width: 100%;
+  margin: 50px;
+}
+
+.container div {
+  width: 50%;
+}
+
+form {
+  margin: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form input {
+  width: 80%;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  min-height: 44px;
+  border: unset;
+  border-radius: 10px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.314);
+}
+
+textarea {
+  font-family: "Lato", sans-serif;
+  width: 80%;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  min-height: 44px;
+  border: unset;
+  border-radius: 10px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+  resize: none;
+}
+
+.btn {
+  background-color: #f38200;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .container div {
+    width: 50%;
+  }
+
+  form {
+    margin: 50px;
+  }
+
+  form input {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container div {
+    width: 100%;
+  }
+
+  form {
+    margin: 25px;
+  }
+
+  form input {
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

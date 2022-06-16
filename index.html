@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="/src/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Reto 4</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Reto 4, CSS Responsive</h1>
+      <div class="login">
+        <h2>Login</h2>
+        <form>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            placeholder="Email"
+            required
+          />
+
+          <input
+            type="password"
+            id="pass"
+            name="pass"
+            placeholder="Password"
+            required
+          />
+          <input
+            class="btn"
+            type="submit"
+            id="submit"
+            name="submit"
+            value="Login"
+          />
+        </form>
+      </div>
+      <div class="contact">
+        <h2>Contact</h2>
+        <form>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            placeholder="Email"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            cols="15"
+            rows="5"
+            placeholder="Write your message"
+          ></textarea>
+          <input
+            class="btn"
+            type="submit"
+            id="submit"
+            name="submit"
+            value="Send"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
